@@ -1,5 +1,5 @@
 # QGIS
-These QGIS primarily manipulate mobile network shapefiles (.shp and their associated .dbf/prj/.shx) and/or UE measurement point data. Pretty self explanatory, although detailed notes will be given with each script, otherwise you'll make a mess.
+These QGIS primarily manipulate mobile network shapefiles (.shp and their associated .dbf/.prj/.shx) and/or UE measurement point data. Pretty self explanatory, although detailed notes will be given with each script, otherwise you'll make a mess.
 
 Use them ONLY within QGIS.
 
