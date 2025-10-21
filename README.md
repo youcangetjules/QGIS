@@ -1,10 +1,10 @@
-📡 QGIS Mobile Signal Blackspot Analyzer
+# 📡 QGIS Mobile Signal Blackspot Analyzer
 
 Automated QGIS script for identifying mobile coverage blackspots using signal strength layers and OSM land use data.
 
 This Python script runs inside QGIS’s Python console (or as a Processing script) to detect, map, and clean mobile network blackspot zones based on signal strength thresholds from two coverage datasets. It automatically buffers, filters, and subtracts areas of strong coverage, then removes irrelevant land use areas (like farmland) to focus on meaningful public zones.
 
-🚀 Features
+## 🚀 Features
 
 Interactive layer selection – Select layers from your active QGIS project via dialog boxes.
 
@@ -20,7 +20,7 @@ Land use exclusion – Optionally removes farmland, grassland, scrub, and other 
 
 In-memory processing – All layers are created dynamically in memory, keeping your project clean.
 
-⚙️ Workflow Overview
+## ⚙️ Workflow Overview
 
 Select Input Layers
 
@@ -38,7 +38,7 @@ Result
 
 A new layer called Final_Blackspot_Polygons added to your QGIS project.
 
-🧩 Configuration
+## 🧩 Configuration
 
 Edit these parameters at the top of the script as needed:
 
@@ -48,7 +48,7 @@ threshold_blackspot = -119 # dBm threshold for poor coverage
 threshold_strong_signal = -100 # dBm threshold for strong coverage
 excluded_types = ["farmland", "grass", "meadow", "scrub"] # Landuse types to exclude
 
-🖥️ Usage
+## 🖥️ Usage
 
 Open QGIS.
 
@@ -62,7 +62,7 @@ Select layers as prompted.
 
 The final blackspot polygons will appear in your QGIS project.
 
-🧠 Requirements
+## 🧠 Requirements
 
 QGIS 3.22+ (tested on QGIS 3.36+)
 
@@ -75,7 +75,7 @@ Coverage layers must include a numeric dbm field.
 This project is released under the MIT License
 .
 
-💡 Example Use Case
+## 💡 Example Use Case
 
 This tool can be used by:
 
