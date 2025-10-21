@@ -70,7 +70,7 @@ PyQt5, QGIS Processing Framework (built-in)
 
 Coverage layers must include a numeric dbm field.
 
-📄 License
+## 📄 License
 
 This project is released under the MIT License
 .
